@@ -16,7 +16,7 @@ const Statistics = ({ good, neutral, bad, total, positivePercentage }) => (
     </p>
     <p className={s.statisticText}>
       Total:
-      <span className={s.number}>{total()}</span>
+      <span className={s.number}>{total}</span>
     </p>
     <p className={s.statisticText}>
       Positive feedback:
